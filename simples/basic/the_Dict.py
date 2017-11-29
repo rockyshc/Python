@@ -43,3 +43,11 @@ print('Dict d is ', d)
 # keyD = dict()
 # keyD[key] = 'A list'
 # print('Dict keyD is ', keyD)
+
+
+# Another good way:
+d1 = {
+    'Tom': 1,
+    'Mike': 2,
+    'Mary': 3
+}

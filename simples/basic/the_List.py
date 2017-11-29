@@ -58,3 +58,10 @@ print(L[0][0])
 print(L[1][1])
 # Print Lisa:
 print(L[2][2])
+
+
+
+# Sort
+sort = ['c', 'b', 'a']
+sort.sort()
+print('After sort:',sort)
