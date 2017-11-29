@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 #String
 print("I\'m \"OK\"!")
 
@@ -30,4 +33,14 @@ print(False or False)
 
 #not
 print(not True)
+
+#None
+print(None)
+
+#Division
+print(9/3)
+print(10//3)
+print(10%3)
+
+
 
