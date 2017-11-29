@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-name = ['Tom', 'Mike', 'Marry']
+name = ['Tom', 'Mike', 'Mary']
 empty = []
 print('List name\'s elements are', name)
 print('List empty\'s elements are', empty)
@@ -44,3 +44,17 @@ replaceElement = 'Jack'
 name[position] = replaceElement
 print('Replace the position %d element' % position)
 print('List name\'s elements are', name)
+
+# exercise
+L = [
+    ['Apple', 'Google', 'Microsoft'],
+    ['Java', 'Python', 'Ruby', 'PHP'],
+    ['Adam', 'Bart', 'Lisa']
+]
+
+# Print Apple:
+print(L[0][0])
+# Print Python:
+print(L[1][1])
+# Print Lisa:
+print(L[2][2])
