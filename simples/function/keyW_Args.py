@@ -3,7 +3,7 @@
 
 # Keyword argument can extend the function of argument
 def person(name, age, **keyWord):
-    print('name:', name, 'age:', age, 'other:', keyWord)
+    print('Name:', name, 'Age:', age, 'Other:', keyWord)
 
 person('Tom', 4)
 person('Jack', 7, gender = 'M', job = 'Engineer')
@@ -32,7 +32,16 @@ person('Alex', 38, **extra)
 # Restriction of keyword argument name
 # Only the city and job can be the keyword argument
 # Need to use *, anything after * will be the keyword argument
+# 和关键字参数**kw不同，命名关键字参数需要一个特殊分隔符*，*后面的参数被视为命名关键字参数。
 def person(name, age, *, city, job):
     print(name, age, city, job)
+# 调用方式如下
+person('Mike', 33, city = 'Nanjing', job = 'Teacher')
 
-# TODO
+# 命名关键字参数可以有缺省值，从而简化调用
+def person(name, age, *, city = 'Shanghai', job):
+    print(name, age, city, job)
+person('Jack', 24, job = 'Engineer')
+
+
+
